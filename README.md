@@ -81,7 +81,7 @@ ex: ``git remote set-url origin https://github.com/vvsrk/rest_workspace.git``
 
 # How to make .gitignore tracking files
 ``#git rm --cached <file>``
-*https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
 
 
