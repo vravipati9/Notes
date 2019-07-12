@@ -83,5 +83,8 @@ ex: ``git remote set-url origin https://github.com/vvsrk/rest_workspace.git``
 ``#git rm --cached <file>``
 https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
 
+#How do I resolve git saying “Commit your changes or stash them before you can merge”?
+https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
+
 
 
