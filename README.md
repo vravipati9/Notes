@@ -85,3 +85,5 @@ https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-
 ### How do I resolve git saying “Commit your changes or stash them before you can merge”? ###
 https://stackoverflow.com/questions/15745045/how-do-i-resolve-git-saying-commit-your-changes-or-stash-them-before-you-can-me
 
+### Merge specific files from feature branch to master branch
+https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/
