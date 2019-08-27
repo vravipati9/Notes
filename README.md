@@ -37,6 +37,15 @@ to view the status
 * ``git remote add origin <project url> (ex: https://github.com/vvsrk/rest_workspace.git)``
 * ``git push -f origin master``
 
+## To get remote URL ##
+
+1) If you want only the remote URL, or if your are not connected to a network that can reach the remote repo:
+``git config --get remote.origin.url``
+
+2) If you require full output and you are on a network that can reach the remote repo where the origin resides :
+``git remote show origin``
+
+
 ### If we want to change the ::project url:: after we created the URL.  ###
 ex: ``git remote set-url origin https://github.com/vvsrk/rest_workspace.git``
 
