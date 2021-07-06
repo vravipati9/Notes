@@ -133,4 +133,4 @@ https://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-fro
 https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git?rq=1
 
 ### Undo pushed changes ###
-``ok git reset --hard c8f4e909 ``
+``git reset --hard <<committed hash>> ``
