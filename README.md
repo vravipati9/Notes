@@ -37,6 +37,38 @@ to view the status
 * ``git remote add origin <project url> (ex: https://github.com/vvsrk/rest_workspace.git)``
 * ``git push -f origin master``
 
+
+### Create a new Repository ###
+
+1) Create repository or folder in Github (ex: git clone git@gitlab.dep.state.fl.us:learn/angular12.git)
+
+2) Move to the folder which you want to checkIngit
+
+3) Run below commandsgit
+
+* ``git clone git@gitlab.dep.state.fl.us:learn/angular12.git``
+* ``cd angular12``
+* ``git switch -c main``
+* ``touch add README.md``
+* ``git commit -m "add README"``
+* ``git push -u origin main``
+
+### Push an existing folder (this is similar to above push existing project into Github) ###
+* ``cd existing_folder``
+* ``git init --initial-branch=main``
+* ``git remote add origin git@gitlab.dep.state.fl.us:learn/angular12.git``
+* ``git add .``
+* ``git commit -m "Initial commit"``
+* ``git push -u origin main``
+
+ ### Push an existing Git repository ###
+* ``cd existing_repo``
+* ``git remote rename origin old-origin``
+* ``git remote add origin git@gitlab.dep.state.fl.us:learn/angular12.git``
+* ``git push -u origin --all``
+* ``git push -u origin --tags``
+
+
 ## To get remote URL ##
 
 1) If you want only the remote URL, or if your are not connected to a network that can reach the remote repo:
