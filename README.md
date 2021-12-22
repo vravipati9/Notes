@@ -134,3 +134,6 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 ### Undo pushed changes ###
 ``git reset --hard <<committed hash>> ``
+
+### Ignore branch commit history while Meging to Master ###
+``https://coderwall.com/p/ysor6a/git-merge-squash-for-merging-without-commit-history``
