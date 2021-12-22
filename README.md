@@ -137,11 +137,11 @@ https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-c
 
 ### Ignore branch commit history while Meging to Master ###
 You are in branch iss10, and now wants to merge changes to master with out commit history ( git merge --squash )
-``git checkout master``
-``git merge --squash iss10``
-``git commit -m "Merged iss10"``
+* ``git checkout master``
+* ``git merge --squash iss10``
+* ``git commit -m "Merged iss10"``
 In case you need to merge iss10 into master again in the future, right now you should update iss10 to base off master
-``git branch -D iss10``
-``git checkout -b iss10``
-``git push -f origin iss10''
-https://coderwall.com/p/ysor6a/git-merge-squash-for-merging-without-commit-history
+* ``git branch -D iss10``
+* ``git checkout -b iss10``
+* ``git push -f origin iss10``
+* https://coderwall.com/p/ysor6a/git-merge-squash-for-merging-without-commit-history
