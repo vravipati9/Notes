@@ -68,6 +68,8 @@ to view the status
 * ``git push -u origin --all``
 * ``git push -u origin --tags``
 
+## To list all the config setting ##
+`` git config --list``
 
 ## To get remote URL ##
 
@@ -91,6 +93,30 @@ ex: ``git remote set-url origin https://github.com/vvsrk/rest_workspace.git``
 ## If git command screen is asking for User Id and Pwd every time, we can avoid this by executing these properties from cmd scr##
 * ``config --global user.email "githubuserId@gmail.com" ``
 * ``config --global user.name "githubuserId" ``
+
+## Work with multiple repositories under different user names ##
+This is generally useful when we contribute to open source communities and work on a corporate environment
+
+* To set your global username/email configuration:
+Open the command line.
+
+Set your username:
+``git config --global user.name "FIRST_NAME LAST_NAME"``
+
+Set your email address:
+``git config --global user.email "MY_NAME@example.com"``
+
+* To set repository-specific username/email configuration:
+From the command line, change into the repository directory.
+
+Set your username:
+``git config user.name "FIRST_NAME LAST_NAME"``
+
+Set your email address:
+``git config user.email "MY_NAME@example.com"``
+
+Verify your configuration by displaying your configuration file ( this file is there on the root folder of the repository):
+cat .git/config
 
 
 ### Creating Branch in GitHub and Merge to Master ###
